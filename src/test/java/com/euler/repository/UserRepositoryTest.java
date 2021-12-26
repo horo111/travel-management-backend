@@ -20,12 +20,12 @@ class UserRepositoryTest {
     @Autowired
     DataSource dataSource;
 
-    @Autowired
-    OrderRepository orderRepository;
+//    @Autowired
+//    OrderRepository orderRepository;
 
     @Test
     void contextLoads() {
-        System.out.println(orderRepository.findAllByUserId(1));
+//        System.out.println(orderRepository.findAllByUserId(1));
 
 //        // 获取数据源
 //        System.out.println(dataSource.getClass());

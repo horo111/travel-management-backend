@@ -47,7 +47,7 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("图书馆采购系统api")
+                .title("旅行社管理系统api")
                 .version("0.0.1")
                 .build();
     }

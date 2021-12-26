@@ -11,6 +11,7 @@ import java.util.List;
  */
 public class Constant {
     public static final String SESSION_KEY_USER = "session_user_id";
+    public static final String IPLOCATIONAK = "0c7c28eeba6043fea9def11528afcdae";
 
     private Constant() {
     }
